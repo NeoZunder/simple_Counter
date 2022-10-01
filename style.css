@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+#principal-Body {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(233, 255, 248);
+}
+
+#Title {
+  font-size: 100px;
+  color: rgb(34, 51, 211);
+}
+
+#Counter {
+  font-size: 200px;
+  color: rgb(10, 170, 23);
+}
+
+.btns {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 3px 10px;
+  margin: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.btns:hover {
+  border: 2px solid rgb(37, 39, 163);
+}
